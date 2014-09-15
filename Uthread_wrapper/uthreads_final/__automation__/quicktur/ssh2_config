@@ -1,0 +1,6 @@
+Host *
+User quicktur
+IdentityFile /root/.ssh/id_rsa
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+PubkeyAuthentication yes

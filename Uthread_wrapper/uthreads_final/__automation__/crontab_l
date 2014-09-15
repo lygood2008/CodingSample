@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+PATH=/usr/sbin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/bin:/bin:/root/bin:/sbin:/usr/local/sbin:/usr/local/bin/usr/lib64/ccache:/home/genxfsim/.local/bin:/home/genxfsim/bin:/mnt/share/__automation__
+0,5,10,15,20,25,30,35,40,45,50,55 * * * *       /mnt/share/__automation__/cron_mon.sh >> /tmp/cront_log.txt 2>&1 
+1,6,11,16,21,26,31,36,41,46,51,56 * * * *       /mnt/share/__automation__/cron_mon_1.sh >> /tmp/cront_log.txt 2>&1 
